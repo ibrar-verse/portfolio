@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abrar Ahmad | Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>Abrar<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="hero">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Abrar Ahmad</h1>
+            <div class="hero-tagline">
+                <span class="tagline-static">I'm a </span>
+                <span class="tagline-dynamic" id="typed-text"></span>
+                <span class="cursor">|</span>
+            </div>
+            <p class="hero-description">
+                2nd Semester Software Engineering Student at University of Gujrat
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-code"></i> View Projects
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i> Contact Me
+                </a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://github.com/Abrar-Ahmad" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/abrar-ahmad-977ba9392" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:uogian2025@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <span class="title-number">01.</span> About Me
+            </h2>
+            <div class="about-grid">
+                <div class="about-image reveal">
+                    <div class="image-frame">
+                        <img src="abrar.jpg" alt="Abrar Ahmad" class="profile-img" style="width:100%;height:100%;object-fit:cover;border-radius:20px;box-shadow:0 8px 30px rgba(0,212,255,0.15);border:2px solid #00d4ff;" />
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+                <div class="about-text reveal">
+                    <p>
+                        I am a driven student currently building a strong foundation in programming. 
+                        While I am mastering technical skills, my strengths currently lie in my ability 
+                        to communicate complex ideas clearly and advocate strongly for solutions, honed 
+                        through extensive experience in competitive debate.
+                    </p>
+                    <p>
+                        I excel in creative problem-solving and thrive in environments where critical 
+                        thinking is essential. My goal is to merge my emerging technical proficiency 
+                        with my confident communication skills to become an effective and versatile 
+                        professional in the tech industry.
+                    </p>
+                    <p>
+                        I am actively seeking opportunities to apply these skills in an internship 
+                        or entry-level role within software development or a related field.
+                    </p>
+                    <div class="about-info-cards">
+                        <div class="info-card">
+                            <i class="fas fa-university"></i>
+                            <div>
+                                <h4>University</h4>
+                                <p>University of Gujrat</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Gujrat, Pakistan</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Degree</h4>
+                                <p>BS Software Engineering</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-calendar-alt"></i>
+                            <div>
+                                <h4>Semester</h4>
+                                <p>2nd Semester</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <span class="title-number">02.</span> My Skills
+            </h2>
+            <div class="skills-grid">
+                <!-- Technical Skills -->
+                <div class="skills-category reveal">
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-laptop-code"></i> Technical Skills
+                    </h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">HTML5</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">CSS3</span>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percent">60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">SQL / Databases</span>
+                            <span class="skill-percent">55%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="55"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skills-category reveal">
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-users"></i> Soft Skills
+                    </h3>
+                    <div class="soft-skills-grid">
+                        <div class="soft-skill-card">
+                            <div class="soft-skill-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <h4>Communication</h4>
+                            <p>Strong public speaking & debate skills</p>
+                        </div>
+                        <div class="soft-skill-card">
+                            <div class="soft-skill-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h4>Problem Solving</h4>
+                            <p>Creative & analytical approach</p>
+                        </div>
+                        <div class="soft-skill-card">
+                            <div class="soft-skill-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h4>Critical Thinking</h4>
+                            <p>Logical reasoning & evaluation</p>
+                        </div>
+                        <div class="soft-skill-card">
+                            <div class="soft-skill-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <h4>Teamwork</h4>
+                            <p>Collaborative & supportive</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <span class="title-number">03.</span> My Projects
+            </h2>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fab fa-amazon"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/Abrar-Ahmad" target="_blank" class="project-link" aria-label="View on GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Amazon Clone</h3>
+                        <p class="project-description">
+                            A front-end e-commerce website clone replicating Amazon's user interface. 
+                            Features include a fully responsive homepage layout, product listing grid, 
+                            navigation bar with search functionality, hero banner carousel, and footer 
+                            sections — all built from scratch.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Abrar-Ahmad" target="_blank" class="btn btn-small">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- More Projects Coming Soon Card -->
+                <div class="project-card coming-soon reveal">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">More Coming Soon...</h3>
+                        <p class="project-description">
+                            Currently working on exciting new projects. Stay tuned for updates 
+                            as I continue to build and learn throughout my Software Engineering journey!
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">In Progress</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EDUCATION SECTION ========== -->
+    <section class="section education" id="education">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <span class="title-number">04.</span> Education & Experience
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025 — Present</div>
+                        <h3>BS Software Engineering</h3>
+                        <h4><i class="fas fa-university"></i> University of Gujrat</h4>
+                        <p>
+                            Currently in my 2nd semester, building a strong foundation in programming, 
+                            data structures, databases, and web development. Actively participating in 
+                            university tech events and coding challenges.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>Software Engineering</span>
+                            <span>Semester 2</span>
+                            <span>Gujrat, Pakistan</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Ongoing</div>
+                        <h3>Competitive Debate</h3>
+                        <h4><i class="fas fa-microphone-alt"></i> Public Speaking & Advocacy</h4>
+                        <p>
+                            Extensive experience in competitive debate, developing strong communication 
+                            skills, critical thinking, and the ability to articulate complex ideas clearly. 
+                            This experience has sharpened my ability to work under pressure and present 
+                            ideas persuasively.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>Communication</span>
+                            <span>Critical Thinking</span>
+                            <span>Leadership</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <span class="title-number">05.</span> Get In Touch
+            </h2>
+            <p class="contact-subtitle reveal">
+                I'm currently looking for internship opportunities. Whether you have a question 
+                or just want to say hi, I'll try my best to get back to you!
+            </p>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>Email</h4>
+                        <a href="mailto:uogian2025@gmail.com">uogian2025@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h4>GitHub</h4>
+                        <a href="https://github.com/Abrar-Ahmad" target="_blank">github.com/Abrar-Ahmad</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h4>LinkedIn</h4>
+                        <a href="https://www.linkedin.com/in/abrar-ahmad-977ba9392" target="_blank">linkedin.com/in/abrar-ahmad</a>
+                    </div>
+                </div>
+                <form class="contact-form reveal" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder=" " required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder=" " required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder=" " required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>Abrar<span class="logo-bracket">/&gt;</span>
+                </div>
+                <div class="footer-socials">
+                    <a href="https://github.com/Abrar-Ahmad" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/abrar-ahmad-977ba9392" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:uogian2025@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+                <p class="footer-text">
+                    &copy; 2026 Abrar Ahmad. All rights reserved.
+                </p>
+                <p class="footer-credit">
+                    Designed & Built with <i class="fas fa-heart"></i> by Abrar Ahmad
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
